@@ -21,6 +21,10 @@ app.config(["$routeProvider", function ($scope, $routeProvider) {
             templateUrl: "views/portfolio.html",
             // controller: "portfolioController"
         })
+        .when("/sixth", {
+            templateUrl: "views/sixth.html",
+            // controller: "sixthController"
+        })
         .otherwise({
             redirectTo: "/"
         });
