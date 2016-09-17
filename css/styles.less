@@ -1,1 +1,54 @@
 @import "variables.less";
+
+
+
+// footer styling
+div#footer-container {
+    height: 15em;
+    background-color: @gunMetal;
+    clear: both;
+    color: @warmYellow;
+    width: 100%;
+
+        #footer-logo {
+            float: left;
+            height: 15em;
+            line-height: 15em;
+        }
+
+        .footer-links {
+            ul {
+                // padding-left: none;
+                margin-top: 2em;
+            }
+
+            li {
+                list-style: none;
+                padding-top: 1em;
+            }
+
+            a {
+                color: @warmYellow;
+            }
+
+            a:hover {
+                color: @paper;
+                text-decoration: none;
+            }
+        }
+
+        #footer-social {
+            height: 15em;
+            line-height: 15em;
+            float: right;
+        }
+
+        #copyright {
+            text-align: center;
+            margin-top: -2em;
+            // font-family: @oswaldLight;
+            font-family: "Oswald", sans-serif;
+            font-weight: 300;
+            // font-size: 2em;
+        }
+}
