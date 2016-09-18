@@ -1,3 +1,57 @@
+#navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4em;
+  font-size: 1.15em;
+  line-height: 1.8em;
+  color: #F4F4F4;
+  background-color: #984B43;
+  text-align: center;
+}
+#navbar ul.pages1 {
+  display: inline-block;
+  color: #F4F4F4;
+  margin-right: 1em;
+}
+#navbar ul.pages1 li.page {
+  margin-left: 1em;
+  margin-right: 1em;
+  color: #F4F4F4;
+  display: inline-block;
+}
+#navbar ul.pages1 li.page a {
+  color: #F4F4F4;
+  text-decoration: none;
+}
+#navbar ul.pages1 li.page a:hover {
+  color: #EAC67A;
+}
+#navbar #nav-logo {
+  position: absolute;
+  left: 50%;
+  vertical-align: middle;
+  z-index: 9999;
+}
+#navbar ul.pages2 {
+  display: inline;
+  color: #F4F4F4;
+  margin-left: -1em;
+}
+#navbar ul.pages2 li.page {
+  margin-left: 1em;
+  margin-right: 1em;
+  color: #F4F4F4;
+  display: inline-block;
+}
+#navbar ul.pages2 li.page a {
+  color: #F4F4F4;
+  text-decoration: none;
+}
+#navbar ul.pages2 li.page a:hover {
+  color: #EAC67A;
+}
 div#footer-container {
   height: 15em;
   background-color: #233237;

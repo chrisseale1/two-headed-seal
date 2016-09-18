@@ -1,6 +1,63 @@
 @import "variables.less";
 
 
+//navbar
+#navbar{
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4em;
+    font-size: 1.15em;
+    line-height: 1.8em;
+    color: @paper;
+    background-color: @rustyRed;
+    text-align: center;
+    
+    ul.pages1{
+        display: inline-block;
+        // position: relative;
+        color: @paper;
+        margin-right: 1em;
+        li.page{
+            margin-left: 1em;
+            margin-right: 1em;
+            color: @paper;
+            display: inline-block;
+            a{
+                color: @paper;
+                text-decoration: none;
+            }
+            a:hover{
+                    color: @warmYellow;
+            }
+        }
+    }
+    #nav-logo{
+        position: absolute;
+        left: 50%;
+        vertical-align: middle;
+        z-index: 9999;
+    }
+    ul.pages2{
+        display: inline;
+        color: @paper;
+        margin-left: -1em;
+        li.page{
+            margin-left: 1em;
+            margin-right: 1em;
+            color: @paper;
+            display: inline-block;
+            a{
+                color: @paper;
+                text-decoration: none;
+            }
+            a:hover{
+                color: @warmYellow;
+            }
+        }
+    }
+}
 
 // footer styling
 div#footer-container {
