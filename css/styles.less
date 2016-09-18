@@ -14,17 +14,25 @@ div#footer-container {
             float: left;
             height: 15em;
             line-height: 15em;
+
+            .fa-rebel {
+                color: @warmYellow;
+                font-size: 11em;
+                padding-top: .15em;
+            }
         }
 
         .footer-links {
             ul {
-                // padding-left: none;
-                margin-top: 2em;
+                padding-top: 1.9em;
             }
 
             li {
                 list-style: none;
-                padding-top: 1em;
+                padding-top: .3em;
+                font-size: 1.5em;
+                font-family: "Oswald", sans-serif;
+                font-weight: 400;
             }
 
             a {
@@ -41,11 +49,31 @@ div#footer-container {
             height: 15em;
             line-height: 15em;
             float: right;
+
+            a {
+                color: @warmYellow;
+                text-decoration: none;
+                }
+
+            a:hover {
+                color: @paper;
+                }
+
+            .fa-facebook-square {
+                font-size: 5em;
+            }
+
+            .fa-twitter-square {
+                font-size: 5em;
+                padding-left: .3em;
+            }
         }
+
 
         #copyright {
             text-align: center;
             margin-top: -2em;
+            font-size: 1.2em;
             // font-family: @oswaldLight;
             font-family: "Oswald", sans-serif;
             font-weight: 300;

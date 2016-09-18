@@ -10,12 +10,20 @@ div#footer-container #footer-logo {
   height: 15em;
   line-height: 15em;
 }
+div#footer-container #footer-logo .fa-rebel {
+  color: #EAC67A;
+  font-size: 11em;
+  padding-top: .15em;
+}
 div#footer-container .footer-links ul {
-  margin-top: 2em;
+  padding-top: 1.9em;
 }
 div#footer-container .footer-links li {
   list-style: none;
-  padding-top: 1em;
+  padding-top: .3em;
+  font-size: 1.5em;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
 }
 div#footer-container .footer-links a {
   color: #EAC67A;
@@ -29,9 +37,24 @@ div#footer-container #footer-social {
   line-height: 15em;
   float: right;
 }
+div#footer-container #footer-social a {
+  color: #EAC67A;
+  text-decoration: none;
+}
+div#footer-container #footer-social a:hover {
+  color: #F4F4F4;
+}
+div#footer-container #footer-social .fa-facebook-square {
+  font-size: 5em;
+}
+div#footer-container #footer-social .fa-twitter-square {
+  font-size: 5em;
+  padding-left: .3em;
+}
 div#footer-container #copyright {
   text-align: center;
   margin-top: -2em;
+  font-size: 1.2em;
   font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
