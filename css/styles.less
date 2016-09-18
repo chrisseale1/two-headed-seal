@@ -1,4 +1,5 @@
 @import "variables.less";
+@import "typography.less";
 
 
 //navbar
@@ -7,7 +8,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 4em;
+    height: 5em;
     font-size: 1.15em;
     line-height: 1.8em;
     color: @paper;
@@ -19,6 +20,8 @@
         // position: relative;
         color: @paper;
         margin-right: 1em;
+        font-family: @abolon, @oswaldBold, sans-serif;
+        font-size: 1.25em;
         li.page{
             margin-left: 1em;
             margin-right: 1em;
@@ -43,6 +46,8 @@
         display: inline;
         color: @paper;
         margin-left: -1em;
+        font-family: @abolon, @oswaldBold, sans-serif;
+        font-size: 1.25em;
         li.page{
             margin-left: 1em;
             margin-right: 1em;
@@ -58,7 +63,12 @@
         }
     }
 }
-
+//temporary container
+.temporary{
+    height: 40em;
+    margin-left: 10em;
+    margin-top: 2em;
+}
 // footer styling
 div#footer-container {
     height: 15em;
@@ -72,10 +82,11 @@ div#footer-container {
             height: 15em;
             line-height: 15em;
 
-            .fa-rebel {
+            img {
                 color: @warmYellow;
-                font-size: 11em;
+                // font-size: 11em;
                 padding-top: .15em;
+                width: 12em;
             }
         }
 
@@ -88,7 +99,7 @@ div#footer-container {
                 list-style: none;
                 padding-top: .3em;
                 font-size: 1.5em;
-                font-family: "Oswald", sans-serif;
+                font-family: @oswaldBold, @abolon, sans-serif;
                 font-weight: 400;
             }
 
@@ -132,7 +143,7 @@ div#footer-container {
             margin-top: -2em;
             font-size: 1.2em;
             // font-family: @oswaldLight;
-            font-family: "Oswald", sans-serif;
+            font-family: @abolon, @oswaldLight, sans-serif;
             font-weight: 300;
             // font-size: 2em;
         }

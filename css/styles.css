@@ -1,9 +1,26 @@
+@font-face {
+  font-family: 'Oswald-Bold';
+  src: url('../fonts/Oswald-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Oswald-Light';
+  src: url('../fonts/Oswald-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Oswald-Regular';
+  src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Abolon';
+  src: url('../fonts/Abolon.otf') format('opentype');
+  src: url('../fonts/Abolon.ttf') format('truetype');
+}
 #navbar {
   width: 100%;
   top: 0;
   left: 0;
   right: 0;
-  height: 4em;
+  height: 5em;
   font-size: 1.15em;
   line-height: 1.8em;
   color: #F4F4F4;
@@ -14,6 +31,8 @@
   display: inline-block;
   color: #F4F4F4;
   margin-right: 1em;
+  font-family: "Abolon", "Oswald-Bold", sans-serif;
+  font-size: 1.25em;
 }
 #navbar ul.pages1 li.page {
   margin-left: 1em;
@@ -38,6 +57,8 @@
   display: inline;
   color: #F4F4F4;
   margin-left: -1em;
+  font-family: "Abolon", "Oswald-Bold", sans-serif;
+  font-size: 1.25em;
 }
 #navbar ul.pages2 li.page {
   margin-left: 1em;
@@ -52,6 +73,11 @@
 #navbar ul.pages2 li.page a:hover {
   color: #EAC67A;
 }
+.temporary {
+  height: 40em;
+  margin-left: 10em;
+  margin-top: 2em;
+}
 div#footer-container {
   height: 15em;
   background-color: #233237;
@@ -64,10 +90,10 @@ div#footer-container #footer-logo {
   height: 15em;
   line-height: 15em;
 }
-div#footer-container #footer-logo .fa-rebel {
+div#footer-container #footer-logo img {
   color: #EAC67A;
-  font-size: 11em;
   padding-top: .15em;
+  width: 12em;
 }
 div#footer-container .footer-links ul {
   padding-top: 1.9em;
@@ -76,7 +102,7 @@ div#footer-container .footer-links li {
   list-style: none;
   padding-top: .3em;
   font-size: 1.5em;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald-Bold", "Abolon", sans-serif;
   font-weight: 400;
 }
 div#footer-container .footer-links a {
@@ -109,6 +135,6 @@ div#footer-container #copyright {
   text-align: center;
   margin-top: -2em;
   font-size: 1.2em;
-  font-family: "Oswald", sans-serif;
+  font-family: "Abolon", "Oswald-Light", sans-serif;
   font-weight: 300;
 }
