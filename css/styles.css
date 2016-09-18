@@ -52,6 +52,9 @@
 #navbar ul.pages2 li.page a:hover {
   color: #EAC67A;
 }
+.temporary {
+  height: 40em;
+}
 div#footer-container {
   height: 15em;
   background-color: #233237;
@@ -64,10 +67,10 @@ div#footer-container #footer-logo {
   height: 15em;
   line-height: 15em;
 }
-div#footer-container #footer-logo .fa-rebel {
+div#footer-container #footer-logo img {
   color: #EAC67A;
-  font-size: 11em;
   padding-top: .15em;
+  width: 12em;
 }
 div#footer-container .footer-links ul {
   padding-top: 1.9em;
