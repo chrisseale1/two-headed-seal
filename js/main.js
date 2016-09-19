@@ -7,23 +7,25 @@ app.config(["$routeProvider", function ($scope, $routeProvider) {
         })
         .when("/about", {
             templateUrl: "views/about.html",
-            // controller: "aboutController"
+            // controller: "AboutController"
+            css: "/css/styles.css"
+
         })
         .when("/contact", {
             templateUrl: "views/contact.html",
-            // controller: "contactController"
+            // controller: "ContactController"
         })
         .when("/services", {
             templateUrl: "views/services.html",
-            // controller: "servicesController"
+            // controller: "ServicesController"
         })
         .when("/portfolio", {
             templateUrl: "views/portfolio.html",
-            // controller: "portfolioController"
+            // controller: "PortfolioController"
         })
         .when("/sixth", {
             templateUrl: "views/sixth.html",
-            // controller: "sixthController"
+            // controller: "SixthController"
         })
         .otherwise({
             redirectTo: "/"
